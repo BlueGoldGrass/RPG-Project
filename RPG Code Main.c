@@ -102,7 +102,7 @@ void freeTree(Node* root) {
     free(root);
 }
 
-// Main function 8=====D
+// Main function 8=============D
 int main() {
     Node* gameTree = buildGameTree();
     playGame(gameTree);
